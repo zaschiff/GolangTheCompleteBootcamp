@@ -1,13 +1,17 @@
 GOPATH -
     Is the environment variable pointing to a folder under the user directory 
-    that contains the source code for the go installation. the are in the src 
-    directory and a it is common practice to store source code in the package 
+    that contains the source code for the go installation. They are in the src 
+    directory and it is common practice to store source code in the package 
     to which it is named.
 
 Code syntax -
-    package 'package name' this is the package clause and is the first line
+    package 'package name' --> this is the package clause and is the first line
     of code. It declares the name of the package that the go file belongs to.
     if it is not named Main, go will nto execute the code.
 
-    func is the keyword to declare a named function that we can create.
+    func --> the keyword to declare a named function that we create.
     The funciton named main is the entry point to the program.
+
+Use the go tools in the command line to run or build your code.
+    To build and executable, use go buil 'file name'
+    To build, run, and delete the executable in one command use go run 'file name'
