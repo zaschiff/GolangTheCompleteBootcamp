@@ -5,13 +5,30 @@ GOPATH -
     to which it is named.
 
 Code syntax -
-    package 'package name' --> this is the package clause and is the first line
+    package 'package name' ==> this is the package clause and is the first line
     of code. It declares the name of the package that the go file belongs to.
     if it is not named Main, go will nto execute the code.
 
-    func --> the keyword to declare a named function that we create.
+    func ==> the keyword to declare a named function that we create.
     The funciton named main is the entry point to the program.
 
 Use the go tools in the command line to run or build your code.
     To build and executable, use go buil 'file name'
     To build, run, and delete the executable in one command use go run 'file name'
+
+Packages -
+    There are rules
+        R1. All package files that should be in the same directory
+        R2. All files in the same directory should belong to the same package
+    Each Go package has it's own scope
+    There are only two kinds of Go packages: Executable and Library
+        Executbale ==> declared with package mian and has a main funcction. Only created for running as program. Not importable
+        Library ==> package name matches folder directory and does not containt a main function.It is created only for reusability. 
+            importable but not executable
+    
+Scopes -
+    scope is the visibility of an object. Who can see the object.
+    Declaration ==> delcares a unique name bound to a scope. Same name cannnot be declared twice with in the same scope.
+    
+    objects outside a function (like inbetween the import statement and the first function) are package scope, the entire pacakge can see the object.
+    If an object is clared between {}, this is considered blocked scope. The object is only visible between matching {}.
