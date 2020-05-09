@@ -41,3 +41,13 @@ Importing -
     Imports can be renmaed to allow duplicate pakcge importing. 
         apply the alias between the import statement and the name of the package 
         ie: import f "fmt", this sets an alias 'f' for the 'fmt' import.
+
+Statments -
+    statements instruct go to do something. 
+    They are generally one line of code unless separated by a semicolon (;).
+    They control the execution flow.
+
+Expressions - 
+    line of code that computes one or more values.
+    expressions should be used with or within a statement.
+    some statements like func calls can also act like expressions.
