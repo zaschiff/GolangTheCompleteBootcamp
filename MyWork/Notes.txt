@@ -32,3 +32,12 @@ Scopes -
     
     objects outside a function (like inbetween the import statement and the first function) are package scope, the entire pacakge can see the object.
     If an object is clared between {}, this is considered blocked scope. The object is only visible between matching {}.
+
+    File scope is all objects are visible to the file. Each Go file has it's own scope.
+
+Importing -
+    allows a file to use the functionalities from a library package. Importing only happens as the file level.
+
+    Imports can be renmaed to allow duplicate pakcge importing. 
+        apply the alias between the import statement and the name of the package 
+        ie: import f "fmt", this sets an alias 'f' for the 'fmt' import.
