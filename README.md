@@ -12,3 +12,7 @@ this folder is the course work provided by the instructor. I have cloned his rep
 __MyWork__  
 This folder is the location for my work and notes. I will keep the work I do and code I type in here to separate it from course materials. The _Notes.txt._ file is where I will write up my notes on the subject.
 It will always remain in the MyWork folder.
+
+## MyWork
+
+Since this folder holds my work done, each section will be broken down into it's respective folder. Inside each section, there will be folders for work done while following along and folders for exercises. __Exercise__ folders will be labeled accoridng to exercise number in order. IE: if the folder is labeled _Exercise1_ then the folder is the first exercise in the section. It will be commented accrodingly for documentation.
