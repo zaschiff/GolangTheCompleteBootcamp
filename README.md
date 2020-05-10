@@ -4,7 +4,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
 
 ## Table of Contents
 
- [Folders](#Folders)
+[Folders](#Folders)
 [MyWork](#Mywork)
 
 ### Folders
