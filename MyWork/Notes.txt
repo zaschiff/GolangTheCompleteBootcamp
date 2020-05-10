@@ -56,3 +56,5 @@ Comments -
     use comments to explain or document code.
     a single line comment is stated with //
     a multi line comment starts with a /* and ends with */
+    There is a command in go to create documentaiton about the project using the comments in the file automatically. 
+        The tool is called go doc

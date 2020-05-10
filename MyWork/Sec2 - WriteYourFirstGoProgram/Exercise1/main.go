@@ -8,6 +8,7 @@
 *						To run each code separately, comment and uncomment accordingly. Each exercise
 *						problem is labled by number.
  */
+
 package main
 
 import "fmt"
