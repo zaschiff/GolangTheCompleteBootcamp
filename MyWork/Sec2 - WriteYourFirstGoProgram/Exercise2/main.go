@@ -2,7 +2,7 @@
 *	Title:				Exercise2/main.go
 *	Course (optional):	GO (Golang): The Complete Bootcamp By Jose Portilla and Inanc Gumus - Udemy Online
 *	Program Author: 	Zach Schiff
-*	Date: 				2020-05-09
+*	Date: 				2020-05-10
 *	Version:			1.0
 *	Description:		This is the main.go file for the second exercise in section two of the course above.
 *						To run each code separately, comment and uncomment accordingly. Each exercise
