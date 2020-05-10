@@ -51,3 +51,8 @@ Expressions -
     line of code that computes one or more values.
     expressions should be used with or within a statement.
     some statements like func calls can also act like expressions.
+
+Comments -
+    use comments to explain or document code.
+    a single line comment is stated with //
+    a multi line comment starts with a /* and ends with */
