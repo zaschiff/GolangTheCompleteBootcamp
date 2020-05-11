@@ -63,3 +63,15 @@ Exporting -
     allows a package to make its functionalities available to other packages.
     To export something, after declaring the name of anobject make the first letter of the name capitlaized
         ie: var cheese string, the variable cheese is not exported. var Cheese string is an exported variable.
+
+Variables -
+    is a storage box for a value. They can be named or unanmed and when called give you access to the value inside. 
+    a static type is a type of variable that can not have its typed changed once declared. However, you can change the value 
+    to another value as long as it is the same type.
+
+    Basic data types - 
+        most basic types in go
+        int         => a whole number, signed or unsigned ie: -1 0 27
+        float64     => a non-whole number ie: .5 0. 1.2
+        bool        => only represent true or false
+        strng       => a word or multiple charachters ie: "hi" "hello there"

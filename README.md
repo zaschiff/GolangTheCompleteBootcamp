@@ -14,6 +14,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [first](#first)
         - [printer](#printer)
         - [scopes](#scopes)
+      - [MastertheTypeSystemofGo](#masterthetypesystemofgo)
 
 ### learngo
 
@@ -46,3 +47,7 @@ first library package written in the course. It holds one function to show the d
 ##### scopes
 
 simple go file to demonstrate scope of an object inside of go program.
+
+#### MastertheTypeSystemofGo
+
+code pertaining to the course section Master the Type System of Go
