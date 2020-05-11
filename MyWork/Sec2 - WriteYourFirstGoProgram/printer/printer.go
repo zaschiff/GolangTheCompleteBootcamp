@@ -1,3 +1,7 @@
 package printer
 
-//some code
+import "fmt"
+
+func hello() {
+	fmt.Println("unexported hello")
+}

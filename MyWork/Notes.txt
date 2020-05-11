@@ -58,3 +58,8 @@ Comments -
     a multi line comment starts with a /* and ends with */
     There is a command in go to create documentaiton about the project using the comments in the file automatically. 
         The tool is called go doc
+
+Exporting - 
+    allows a package to make its functionalities available to other packages.
+    To export something, after declaring the name of anobject make the first letter of the name capitlaized
+        ie: var cheese string, the variable cheese is not exported. var Cheese string is an exported variable.
