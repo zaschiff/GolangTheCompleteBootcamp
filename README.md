@@ -41,7 +41,7 @@ This is the first program written in the course and is a simple 'Hello World' st
 
 ##### printer
 
-first library package written in the course. It holds only one file with one line of code to demonstrate the diffrence in package naming.
+first library package written in the course. It holds one function to show the difference between an exported object and an unexported object. The cmd folder has one main.go file to demonstrate the errors that are thrown when trying to call exported and unexported object.
 
 ##### scopes
 
