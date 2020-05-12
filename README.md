@@ -9,12 +9,13 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
     - [learngo](#learngo)
     - [MyWork](#mywork)
       - [WriteYourFirstGoProgram](#writeyourfirstgoprogram)
-        - [Exercise1](#exercise1)
-        - [Exercise2](#exercise2)
+        - [Exercise1Section2](#exercise1section2)
+        - [Exercise2Section2](#exercise2section2)
         - [first](#first)
         - [printer](#printer)
         - [scopes](#scopes)
       - [MastertheTypeSystemofGo](#masterthetypesystemofgo)
+        - [Exercise1Section3](#exercise1section3)
 
 ### learngo
 
@@ -28,11 +29,11 @@ This folder is the location for my work and notes. I will keep the work I do and
 
 Code pertaining to the course section 'Write Your First Go Program'
 
-##### Exercise1
+##### Exercise1Section2
 
 Code pertaining to the first exercise of the section.
 
-##### Exercise2
+##### Exercise2Section2
 
 Code pertaining to the second exercise of the section.
 
@@ -51,3 +52,7 @@ simple go file to demonstrate scope of an object inside of go program.
 #### MastertheTypeSystemofGo
 
 code pertaining to the course section Master the Type System of Go
+
+##### Exercise1Section3
+
+Code pertinaing to the first exercise in section 3. It shows examples of printing types.

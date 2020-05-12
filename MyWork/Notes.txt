@@ -75,3 +75,35 @@ Variables -
         float64     => a non-whole number ie: .5 0. 1.2
         bool        => only represent true or false
         strng       => a word or multiple charachters ie: "hi" "hello there"
+
+    Declaring a Variable, Syntax -
+        must be delcared before you can use. 
+         syntax is as follows: var speed int
+            var     ==> keyword to declare a variable
+            speed   ==> name fo the variable or also known as the identifier
+            int     ==> type of the variable
+    
+        In go every variables have a type
+
+        Naming rules:
+            names should always start with a letter or underscore character.
+            names can not start with numbers or punctuation marks
+            names can not contian punctuation marks
+            names can not use keywords from go.
+
+        if not initialized to a value, go will initialize a variable to it's zero value
+        Zero values get applied to an emtpy variable according to it's type
+            int         ==> 0
+            float       ==> 0
+            bool        ==> false
+            string      ==> ""
+            pointers    ==> nil
+
+    Blank Identifier -
+        go does not allow declaraion of unused variables. Unused variables cause maintenance nightmares. 
+        You are not required to use package level variables.
+
+        allows us to use and discard the value of a variable. 
+    
+    Multiple variables can be declared using the comma (,) as a separator as long as they are the same type or 
+        you can wrap them in parentheses () after the var keyword if the types are different
