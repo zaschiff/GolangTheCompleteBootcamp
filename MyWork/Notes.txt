@@ -107,3 +107,12 @@ Variables -
     
     Multiple variables can be declared using the comma (,) as a separator as long as they are the same type or 
         you can wrap them in parentheses () after the var keyword if the types are different
+
+    Initialization can be done at the saem time as declaration using the assingment operator (=)
+
+    Go uses type inference. This means that the compiler can figure out the type of variable using the vlaue that it contains.
+
+    Short declaration is a variable declaration syntax that declares and initializes the value in one statement. The short declaraion operator is :=
+        Short declaration works at block scope, it can't be used for package scope variables.
+    The short declaration can be used with mutliple variable assignment. they do not need to be the same type to usse :=
+    It acan also be used on a previsoulse declared variable as ong as it is in multiple assignment and at least one new variable is new.
