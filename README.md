@@ -16,6 +16,8 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [scopes](#scopes)
       - [MastertheTypeSystemofGo](#masterthetypesystemofgo)
         - [Exercise1Section3](#exercise1section3)
+        - [Exercise2Section3](#exercise2section3)
+        - [Exercise3Section3](#exercise3section3)
 
 ### learngo
 
@@ -43,16 +45,24 @@ This is the first program written in the course and is a simple 'Hello World' st
 
 ##### printer
 
-first library package written in the course. It holds one function to show the difference between an exported object and an unexported object. The cmd folder has one main.go file to demonstrate the errors that are thrown when trying to call exported and unexported object.
+First library package written in the course. It holds one function to show the difference between an exported object and an unexported object. The cmd folder has one main.go file to demonstrate the errors that are thrown when trying to call exported and unexported object.
 
 ##### scopes
 
-simple go file to demonstrate scope of an object inside of go program.
+Simple go file to demonstrate scope of an object inside of go program.
 
 #### MastertheTypeSystemofGo
 
-code pertaining to the course section Master the Type System of Go
+Code pertaining to the course section Master the Type System of Go
 
 ##### Exercise1Section3
 
-Code pertinaing to the first exercise in section 3. It shows examples of printing types.
+Code pertaining to the first exercise in section 3. It shows examples of printing types.
+
+##### Exercise2Section3
+
+Code pertaining to the second exercise in section 3. SHows the various declaration method and the zero values for the specific types.
+
+##### Exercise3Section3
+
+Code pertaining to the third exercise of section 3. Shows the use of short variable declaration and multi-declaration and assignment.
