@@ -18,6 +18,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise1Section3](#exercise1section3)
         - [Exercise2Section3](#exercise2section3)
         - [Exercise3Section3](#exercise3section3)
+        - [Exercise4Section3](#exercise4section3)
 
 ### learngo
 
@@ -66,3 +67,7 @@ Code pertaining to the second exercise in section 3. SHows the various declarati
 ##### Exercise3Section3
 
 Code pertaining to the third exercise of section 3. Shows the use of short variable declaration and multi-declaration and assignment.
+
+##### Exercise4Section3
+
+Code pertaining to the fourth exercise of section 3. Shows the use of variable assignment and variable swapping.
