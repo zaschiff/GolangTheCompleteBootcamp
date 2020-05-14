@@ -116,3 +116,14 @@ Variables -
         Short declaration works at block scope, it can't be used for package scope variables.
     The short declaration can be used with mutliple variable assignment. they do not need to be the same type to usse :=
     It acan also be used on a previsoulse declared variable as ong as it is in multiple assignment and at least one new variable is new.
+
+    When deciding to use a short variable vs normal - 
+        Use Normal Declaration when:
+            When you don't know the initial value
+            When you need a package scope variable
+            When you want to group variables together for readability
+
+        Use Short declaration when: (mostly used and preferred)
+            When you know the initial value.
+            to keep code concise
+            for redeclaration
