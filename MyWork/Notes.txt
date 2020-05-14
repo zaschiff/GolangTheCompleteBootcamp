@@ -127,3 +127,9 @@ Variables -
             When you know the initial value.
             to keep code concise
             for redeclaration
+
+    Assignment -
+        use the assignment operator (=) to change the value of a variable. This doesn't declare a new variable.
+        When assigning a value to a varibale it MUST match the type of the variable.
+        the assignment operator supports multiple variable assignment.
+        Using the multiple assingment sytanx we can swap two variables.
