@@ -133,3 +133,13 @@ Variables -
         When assigning a value to a varibale it MUST match the type of the variable.
         the assignment operator supports multiple variable assignment.
         Using the multiple assingment sytanx we can swap two variables.
+Type Conversion -
+    since we have mutliple types, we may nee to take one type and make it into another. Go offers type conversion.
+        the syntax for type conversion is similar to many other languages. 
+            type(value)
+        
+        type  ==> the type we want to convert to
+        value ==> value we are trying to convert.
+
+Type Names -
+    the type indicates the type and the size of the type. An Int32 is 4 bytes long and it is not the same as int.
