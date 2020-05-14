@@ -19,6 +19,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise2Section3](#exercise2section3)
         - [Exercise3Section3](#exercise3section3)
         - [Exercise4Section3](#exercise4section3)
+        - [Exercise5Section3](#exercise5section3)
 
 ### learngo
 
@@ -71,3 +72,7 @@ Code pertaining to the third exercise of section 3. Shows the use of short varia
 ##### Exercise4Section3
 
 Code pertaining to the fourth exercise of section 3. Shows the use of variable assignment and variable swapping.
+
+##### Exercise5Section3
+
+Code pertaining to the fifth exercise of section 3. Shows the use of type conversion and correction.
