@@ -144,3 +144,8 @@ Type Conversion -
 
 Type Names -
     the type indicates the type and the size of the type. An Int32 is 4 bytes long and it is not the same as int.
+
+Slices -
+    Slices is a go type that can store multiple values
+    syntax is [] and the type it will store. Once declared it can only store that type. IE []string, is a slice of strings only
+    Go is a zero index language. We access the items in a slice using an index number inside [] ie [0] is the first item in a slice
