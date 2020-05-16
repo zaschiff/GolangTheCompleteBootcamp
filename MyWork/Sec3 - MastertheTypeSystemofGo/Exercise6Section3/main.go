@@ -1,5 +1,5 @@
 /*
-*	Title:				Exercise4/main.go
+*	Title:				Exercise6/main.go
 *	Course (optional):	GO (Golang): The Complete Bootcamp By Jose Portilla and Inanc Gumus - Udemy Online
 *	Program Author: 	Zach Schiff
 *	Date: 				2020-05-14
