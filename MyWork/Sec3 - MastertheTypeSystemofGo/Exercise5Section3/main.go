@@ -4,7 +4,7 @@
 *	Program Author: 	Zach Schiff
 *	Date: 				2020-05-14
 *	Version:			1.0
-*	Description:		This is the main.go file for the fourth exercise in section three of the course.
+*	Description:		This is the main.go file for the fifth exercise in section three of the course.
 *						The code is for the exercise labeled Data Types Exercise. To run each code
 *						separately, comment and uncomment accordingly. Each exercise problem is labled
 *						by number.

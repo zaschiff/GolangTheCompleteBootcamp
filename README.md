@@ -21,6 +21,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise3Section3](#exercise3section3)
         - [Exercise4Section3](#exercise4section3)
         - [Exercise5Section3](#exercise5section3)
+        - [Exercise6Section3](#exercise6section3)
 
 ### learngo
 
@@ -81,3 +82,7 @@ Code pertaining to the fourth exercise of section 3. Shows the use of variable a
 ##### Exercise5Section3
 
 Code pertaining to the fifth exercise of section 3. Shows the use of type conversion and correction.
+
+##### Exercise6Section3
+
+Code pertaining to the sixth exercise of section 3. Shows the use of command line arguments in a program and basic information of slices.
