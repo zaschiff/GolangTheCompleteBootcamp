@@ -15,6 +15,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [printer](#printer)
         - [scopes](#scopes)
       - [MastertheTypeSystemofGo](#masterthetypesystemofgo)
+      - [Greeter](#greeter)
         - [Exercise1Section3](#exercise1section3)
         - [Exercise2Section3](#exercise2section3)
         - [Exercise3Section3](#exercise3section3)
@@ -56,6 +57,10 @@ Simple go file to demonstrate scope of an object inside of go program.
 #### MastertheTypeSystemofGo
 
 Code pertaining to the course section Master the Type System of Go
+
+#### Greeter
+
+A samll program that takes in a command line argument and greets the user using it. Used to demonstrate user input, the os package, and the os.Args slice.
 
 ##### Exercise1Section3
 
