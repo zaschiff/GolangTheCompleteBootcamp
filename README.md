@@ -16,6 +16,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [scopes](#scopes)
       - [MastertheTypeSystemofGo](#masterthetypesystemofgo)
         - [Greeter](#greeter)
+        - [CelsiusToFahrenheit](#celsiustofahrenheit)
         - [Exercise1Section3](#exercise1section3)
         - [Exercise2Section3](#exercise2section3)
         - [Exercise3Section3](#exercise3section3)
@@ -63,6 +64,10 @@ Code pertaining to the course section Master the Type System of Go
 ##### Greeter
 
 A samll program that takes in a command line argument and greets the user using it. Used to demonstrate user input, the os package, and the os.Args slice.
+
+##### CelsiusToFahrenheit
+
+This is a simple program written during the section to give practice working with arithmetic operators, precedence order, string conversion, and formatted printing. The program takes in a command line argument and converts it to a fahrenheit temperature with the assumption that the input is a temperature in celsius. It then rints the result to the screen with proper formatting.
 
 ##### Exercise1Section3
 

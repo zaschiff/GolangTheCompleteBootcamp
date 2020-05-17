@@ -193,3 +193,21 @@ Arithmetic Operators -
         / - division
         % - remainder or modulus, only works on integers
     Computers struggle with floating part numbers and can create inaccuracies based on precision. BE CAREFUL!!!
+
+    Computers do have precendence or order of operations.
+        we can change that order using parentheses ()
+        order of operations is as follows:
+            top from left to right
+                * / % << >> & &^
+                + - | ^
+                == != < <= > >=
+                &&
+                ||
+
+    GO does offer an increment and decrement method to either increase or decrease by one
+        the syntax is as follows:
+            value++ ==> increase value by 1
+            value-- ==> decrease value by 1
+        this is called the incdec statement and cannnot be used as an expression. GO considers this a statement
+        and must be on its own line of code.
+            5 + n-- does not work!!!
