@@ -24,6 +24,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise5Section3](#exercise5section3)
         - [Exercise6Section3](#exercise6section3)
         - [Exercise7Section3](#exercise7section3)
+        - [Exercise8Section3](#exercise8section3)
 
 ### learngo
 
@@ -96,3 +97,7 @@ Code pertaining to the sixth exercise of section 3. Shows the use of command lin
 ##### Exercise7Section3
 
 Code pertaining to the seventh exercise of section 3. Shows use of the Printf function and formatting values. Also demonstrates using the backslash (\\) to use escape sequences or escape symbols suchs as double quotes.
+
+##### Exercise8Section3
+
+Code pertaining to the eighth exercise of section 3. Shows use of basic arithmetic and precedence order. Alos shows how to change the order using parentheses.
