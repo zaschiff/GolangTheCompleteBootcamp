@@ -184,3 +184,12 @@ Formatter input -
     
     others can be found at https://golang.org/pkg/fmt/
     we can pass an arguments index to the formatting verb to select which argument we want using []
+
+Arithmetic Operators -
+    Normal math operations can be done using the normal operators in go
+        * - multiplication
+        + - addtiona
+        - - subtraction/negation
+        / - division
+        % - remainder or modulus, only works on integers
+    Computers struggle with floating part numbers and can create inaccuracies based on precision. BE CAREFUL!!!
