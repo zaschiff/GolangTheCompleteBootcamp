@@ -211,3 +211,15 @@ Arithmetic Operators -
         this is called the incdec statement and cannnot be used as an expression. GO considers this a statement
         and must be on its own line of code.
             5 + n-- does not work!!!
+
+String Literals -
+    a string litteral is a single line string wraped in double quotes
+    a raw string literal is wrapped in back quotes (``) and it can span multiple lines. 
+        it is not interpreted. IE if the raw string literal has a new line escape sequence, 
+        go will not see it as such.
+
+    Strings can be concatenated or combines together using the + operator to create a new string.
+    we can also use the len command to get the length of a string. However, this command returns 
+        the number of bytes but not the number of characters. We would use a different function
+        to count another type called a rune or single character. The rune coutn function is 
+        under the unicode/utf8 package.

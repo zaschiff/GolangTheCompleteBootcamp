@@ -17,6 +17,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
       - [MastertheTypeSystemofGo](#masterthetypesystemofgo)
         - [Greeter](#greeter)
         - [CelsiusToFahrenheit](#celsiustofahrenheit)
+        - [Banger](#banger)
         - [Exercise1Section3](#exercise1section3)
         - [Exercise2Section3](#exercise2section3)
         - [Exercise3Section3](#exercise3section3)
@@ -70,6 +71,10 @@ A samll program that takes in a command line argument and greets the user using 
 
 This is a simple program written during the section to give practice working with arithmetic operators, precedence order, string conversion, and formatted printing. The program takes in a command line argument and converts it to a fahrenheit temperature with the assumption that the input is a temperature in celsius. It then rints the result to the screen with proper formatting.
 
+##### Banger
+
+This a is a simple program written during the seciton to give practice working with strigns and manipulating them. The program takes a singl command line argument, counts the number of characters in the resulting sting, and adds that number of exclamation points to the beginning and end of the string.
+
 ##### Exercise1Section3
 
 Code pertaining to the first exercise in section 3. It shows examples of printing types.
@@ -100,4 +105,4 @@ Code pertaining to the seventh exercise of section 3. Shows use of the Printf fu
 
 ##### Exercise8Section3
 
-Code pertaining to the eighth exercise of section 3. Shows use of basic arithmetic and precedence order. Alos shows how to change the order using parentheses.
+Code pertaining to the eighth exercise of section 3. Shows use of basic arithmetic and precedence order. Also shows how to change the order using parentheses.
