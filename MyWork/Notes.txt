@@ -233,4 +233,50 @@ Bits and Bytes -
     a byte type go is like an unsigned integer of 8 bits
 
     Predeclared types are built in types to the language.
-    
+        The predeclared types are as follows:
+            bool ==> True or False                  string  ==> "hello world"
+            
+            int  ==> int32 or int64,
+                capactiy dependent. The numebr is the bit size. 
+                more bits means more memory needed
+                    These are signed there is the unsigned only variation of uint
+                int8
+                int16
+                int32 (also a Rune, 
+                    same type but diffrent or aliased type)
+                int64
+
+            Float32 ==> samething as flaot64 only 32 bytes.
+            Float64 ==> fractional part 
+                numbers
+
+            complex64  ==> two float32 byte values 
+            complex128 ==> two float64 byte values
+
+    if we give a value that goes higher than the types limit then, the valeu will wrap around.
+    ie if we try to give a utin8 a value of 256, the value will become 0
+
+Defined Type -
+    a defined a user created type that has an underlying type.
+    a defined type is also called a named type.
+    The syntaxt for creating a new type is as follows:
+        type duration int64
+        type     ==> keyword to declar a new type
+        duration ==> name of the deinfed type
+        int64    ==> the underlying type that duration is based on
+    a deined type gets it's properties from the underlying, predeclared type. However, the named 
+        type and underlying type are still considered different by the compiler.
+    you can also convert a named type to another named or predeclared type as long as the underlying
+         types are the same.
+    Go does not ahve type-hierarchy. so:
+            type duration int64
+            type myDuration duration
+        myDuraiton is not type duration but type int64
+    defined types and source types share the the same, base, underlying type.
+
+Aliased Types -
+    to alias type, we declare the type as we would a new type but instead a space after the name we place
+        a assignment operator like so:
+            type gram = uint8
+            type rune = int32
+    but do not use this without care.
