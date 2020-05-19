@@ -223,3 +223,14 @@ String Literals -
         the number of bytes but not the number of characters. We would use a different function
         to count another type called a rune or single character. The rune coutn function is 
         under the unicode/utf8 package.
+
+Bits and Bytes -
+    bit is a 0 or 1. It is the smallest form of data a computer can have. It represents data
+    More bits means more values that can be represented.
+
+    Bytes, is the next step of data and it groups bits. 1 Byte = 8 Bits.
+    Just like with bits, more bytes means more information we can represent.
+    a byte type go is like an unsigned integer of 8 bits
+
+    Predeclared types are built in types to the language.
+    
