@@ -26,6 +26,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise6Section3](#exercise6section3)
         - [Exercise7Section3](#exercise7section3)
         - [Exercise8Section3](#exercise8section3)
+        - [Exercise9Section3](#exercise9section3)
 
 ### learngo
 
@@ -106,3 +107,7 @@ Code pertaining to the seventh exercise of section 3. Shows use of the Printf fu
 ##### Exercise8Section3
 
 Code pertaining to the eighth exercise of section 3. Shows use of basic arithmetic and precedence order. Also shows how to change the order using parentheses.
+
+##### Exercise9Section3
+
+Code pertaining to the ninth exercise of section 3. Shows type safet, custom types, and the basic type sizes in go. This axercise shows how we can manipulate the types size to adjust accodingly.
