@@ -280,3 +280,39 @@ Aliased Types -
             type gram = uint8
             type rune = int32
     but do not use this without care.
+
+Constants -
+    constants belong to compile time. It is created at the compile time.
+    Constants may or may not have a name and they are replaced at runtime by their value.
+    Constant may or may not have a type but it will always have an initial value since it will not change.
+    To declare a named constant use the syntax:
+        const name int
+            const ==> keyword to delcare a constant
+            name  ==> constant name
+            int   ==> constant type
+    an unnamed constant is just a type literal.
+    Since constants belong to compile time, variable runtime errors can sometimes be caught at compile time
+        when using constants.
+
+    Rules for using constants:
+        constants are immutable
+        can not initialize a constant with a runtime value
+        can initialize using the len command on string literals
+
+    you can initilaize a constant to a non-numeric type, nor do they need to be declared with a type
+    just like declaring multiple variables you can declare multiple contants in the same manner.
+    If a constnat's type and value are not declared, it will get the type and data from the 
+        previous constant
+    
+Typeless Constants -
+    when you declare a constant without a type. it becomes a untyped constant.
+        this allows something like 3.14 * 2. If these were type this would not be allowed. 
+    All basic literals are typeless.
+    Typeless constants are like chameleon, they cha ge their type as needed.
+    If the type is not specified, go implicitly converts the value to it's default type.
+    Becasue of this we can mix some values together but not all. 
+
+Iota - 
+    Built in contant generator. This generator starts at 0(unless otherwise started) and increases
+        by one at each line in a constant declaration. It will not reset until it hits another 
+        constant declaration.

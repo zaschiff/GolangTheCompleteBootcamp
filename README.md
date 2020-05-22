@@ -27,6 +27,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise7Section3](#exercise7section3)
         - [Exercise8Section3](#exercise8section3)
         - [Exercise9Section3](#exercise9section3)
+        - [Exercise10Section3](#exercise10section3)
 
 ### learngo
 
@@ -110,4 +111,8 @@ Code pertaining to the eighth exercise of section 3. Shows use of basic arithmet
 
 ##### Exercise9Section3
 
-Code pertaining to the ninth exercise of section 3. Shows type safet, custom types, and the basic type sizes in go. This axercise shows how we can manipulate the types size to adjust accodingly.
+Code pertaining to the ninth exercise of section 3. Shows type safety, custom types, and the basic type sizes in go. This axercise shows how we can manipulate the types size to adjust accodingly.
+
+##### Exercise10Section3
+
+Code pertaining to the tenth exercise of section 3. Shows the use of constants. How to declare them, make them typed or typeless, and use of iota.
