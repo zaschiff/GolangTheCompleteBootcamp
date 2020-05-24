@@ -316,3 +316,69 @@ Iota -
     Built in contant generator. This generator starts at 0(unless otherwise started) and increases
         by one at each line in a constant declaration. It will not reset until it hits another 
         constant declaration.
+
+Common Naming Conventions in Go -
+   Abbreviate. Use the first letter(s) of the word(s) to make them meaningful
+        but more concise ie:
+            s string
+            i index
+            val value
+            fv flag value
+            seen has seen?
+            parsed parsing ok?
+        things nedd to be more readable rather than verbose. This helps with maintainability.
+        Smaller the scope, fewer the letters is a good rule of thumb
+        camel case is ok, but don't start with a capital unless you want to export the object.
+        Use all caps for common acronyms like API
+        Do not stutter, or repeat words.
+        Do not use underscores in names
+
+Boolean Operators -
+    Comparison Operators are used to compare two values. They return a bool value (true or false)
+    The comparison operatros are:
+        == ==> the equal operator. If oth valuse are the same than the expression returns true
+        != ==> the not equal operator, the opposite of the equal op.
+        <  ==> the less than operator, one value is less than the other.
+        <= ==> less than equal to. If the value on the left is less than or equal to the one on the right.
+        >  ==> greater than operator. Value on the left is greater than the one on the right.
+        >= ==> same as the less than equal to, but checks if value on left is greater than or equal to the value on the right.
+
+    If you can't assign the value, then you can't compare it.
+        IE you can't compare a string to int since you can not assign a string to an int.
+    
+Logical Operator -
+    Combines one or more boolean expressions and returns a boolean value.
+    Can ONLY combine boolean value
+    Logical operators:
+        && (and)  both operands need to be true for the result to be true
+        || (or)   at least one of the operands needs to be true.
+        !  (not)  this takes the result of a boolean operaand and flips it to the opppsite
+            IE if the result is true, then the not will return a false.
+
+If Statement -
+    is a control structure in go. It is a block of code that will only run if 
+        a condition is met. The scope of the block is only for the if statement.
+        It can access anythign outside its block but nothing con see what is 
+        inside its block.
+            if score > 3 {
+                fmt.Println("good")
+            }
+        
+            if                  ==> keyword to begin the if statement
+            score > 3           ==> the condition that needs to be met. Score 
+                                        must be greater than 3 to run the code 
+                                        body
+            {}                  ==> braces do denote the code block
+            fmt.Println("good") ==> code body, this code is run if the condition
+                                        on score is met
+        if there is only once condition to be met, we do not need parentheses. 
+            If there are multiple conditions like score > 3 and height < 5 then 
+            we need prentheses like this (score > 3) && (height < 5)
+        we can have multiple branches based on multiple conditions using the keywords
+            else if. This branch will be checked only if the first if conditon is not met. 
+            Just like the if statement though, the condiotn on the else if
+            needs to be met in order for the body of code to run.
+        if nothing is met we can have a body if code at the end after the keyword else, whos
+            code block will only run if no conditions are met in any of the branches before it.
+        As single if branch can only be used once, but we can have as many branches as needed.
+            Same thing with the else branch. There can only be one else branch.
