@@ -28,6 +28,8 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise8Section3](#exercise8section3)
         - [Exercise9Section3](#exercise9section3)
         - [Exercise10Section3](#exercise10section3)
+      - [ControlFlowandErrorHandling](#controlflowanderrorhandling)
+        - [Exercsie1Section4](#exercsie1section4)
 
 ### learngo
 
@@ -116,3 +118,11 @@ Code pertaining to the ninth exercise of section 3. Shows type safety, custom ty
 ##### Exercise10Section3
 
 Code pertaining to the tenth exercise of section 3. Shows the use of constants. How to declare them, make them typed or typeless, and use of iota.
+
+#### ControlFlowandErrorHandling
+
+Code pertaining to the course section Control Flow and Error Handling
+
+##### Exercsie1Section4
+
+Code pertaining to first exercise of section 4. Shows examples of the if statement and else if branches.
