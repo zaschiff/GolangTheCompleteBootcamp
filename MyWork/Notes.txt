@@ -382,3 +382,35 @@ If Statement -
             code block will only run if no conditions are met in any of the branches before it.
         As single if branch can only be used once, but we can have as many branches as needed.
             Same thing with the else branch. There can only be one else branch.
+
+Error Handling -
+    Why? Not everything goes as expected. Those issues must be addressed.
+    error handling is crucial to write a successful program.
+    
+    nil is a predelcared identifier in go. It means that the value is not yet initialized yet.
+    same as 
+        Javascript ==> null
+        python     ==> None
+        java       ==> null
+        ruby       ==> nil
+
+    the zero value for a pointer based type is nil.
+    Most error handling either returns nil or a value. If the value returned is nil, then everything
+        in the program ran correctly. If a value is returned, then somehting went wrong and must be addressed.
+        we can check for errors using an if statement to chek if the variable is nil or not.
+
+    Go expects errors to be handled quickly and at the time that it can be encountered. This way 
+        nothing truly unexpected happens. Rather than try and catch statements like other languages,
+        go just expects the use of an if statement.
+
+Short if Statement -
+    we can put the short vairbale declaration and error check in a single line for an if statement
+        if n, err := strconv.Atoi("42"); err == nil {}
+
+        in this syntax combines the declaration and error checking in single moment. The only downside is 
+            the variables are only created with in the scope of the if block of code.
+
+Shadowing -
+    this is a vairbale issue that occurs when a vairble is declared outside of an if statements and inside 
+    the if condition. This is caused by the scope of the if block of code.
+

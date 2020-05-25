@@ -31,7 +31,9 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
       - [ControlFlowandErrorHandling](#controlflowanderrorhandling)
         - [Passme](#passme)
         - [PassMulti](#passmulti)
-        - [Exercsie1Section4](#exercsie1section4)
+        - [Exercise1Section4](#exercise1section4)
+        - [Exercise2Section4](#exercise2section4)
+          - [Movies](#movies)
 
 ### learngo
 
@@ -123,7 +125,7 @@ Code pertaining to the tenth exercise of section 3. Shows the use of constants. 
 
 #### ControlFlowandErrorHandling
 
-Code pertaining to the course section Control Flow and Error Handling
+Code pertaining to the course section Control Flow and Error Handling. At this point in the cours exercise problems are getting more robust and longer. They will now be with in the exercisefolder and each individual problem will be in its own sub folder.
 
 ##### Passme
 
@@ -133,6 +135,14 @@ A simple code project in go to show if branching and logical operators. It will 
 
 An a more robust version of the Passme project. While this project ufnction in identical fashion, it has the ability to validate two different users, rather than a single user.
 
-##### Exercsie1Section4
+##### Exercise1Section4
 
 Code pertaining to first exercise of section 4. Shows examples of the if statement and else if branches.
+
+##### Exercise2Section4
+
+Code pertaining to the second exercise in section 4. Shows examples of more if statments and error handling.
+
+###### Movies
+
+First problem in exercsie 2. A small program that checks a person's age and prints what movie ratings they are permitted to see.
