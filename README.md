@@ -29,6 +29,8 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise9Section3](#exercise9section3)
         - [Exercise10Section3](#exercise10section3)
       - [ControlFlowandErrorHandling](#controlflowanderrorhandling)
+        - [Passme](#passme)
+        - [PassMulti](#passmulti)
         - [Exercsie1Section4](#exercsie1section4)
 
 ### learngo
@@ -122,6 +124,14 @@ Code pertaining to the tenth exercise of section 3. Shows the use of constants. 
 #### ControlFlowandErrorHandling
 
 Code pertaining to the course section Control Flow and Error Handling
+
+##### Passme
+
+A simple code project in go to show if branching and logical operators. It will take command line input and "validate" agianst some conditions and print out various messages. It is a very simplistic and unsecure password checking tool. This code will only chekc for one user and its correct password.
+
+##### PassMulti
+
+An a more robust version of the Passme project. While this project ufnction in identical fashion, it has the ability to validate two different users, rather than a single user.
 
 ##### Exercsie1Section4
 
