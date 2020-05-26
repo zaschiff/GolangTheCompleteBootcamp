@@ -34,6 +34,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise1Section4](#exercise1section4)
         - [Exercise2Section4](#exercise2section4)
           - [Movies](#movies)
+          - [OddOrEven](#oddoreven)
 
 ### learngo
 
@@ -146,3 +147,7 @@ Code pertaining to the second exercise in section 4. Shows examples of more if s
 ###### Movies
 
 First problem in exercsie 2. A small program that checks a person's age and prints what movie ratings they are permitted to see.
+
+###### OddOrEven
+
+Second Problem in exercise 2. The program takes in an argument and checks if it is eve or odd and if it is divisble by 8.
