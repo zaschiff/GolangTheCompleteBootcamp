@@ -35,6 +35,8 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise2Section4](#exercise2section4)
           - [Movies](#movies)
           - [OddOrEven](#oddoreven)
+          - [LeapYear](#leapyear)
+          - [DaysOfMonth](#daysofmonth)
 
 ### learngo
 
@@ -151,3 +153,11 @@ First problem in exercsie 2. A small program that checks a person's age and prin
 ###### OddOrEven
 
 Second Problem in exercise 2. The program takes in an argument and checks if it is eve or odd and if it is divisble by 8.
+
+###### LeapYear
+
+Third and fourth problem in exercise 2. The program will take a command line argument of a year and print out whether it is a leap year or not. The fourth exercise is to refine the third exercise.
+
+###### DaysOfMonth
+
+The fifth problem of the exercise. The program takes in a command line argument of a onth name and notifies the user how many days are in the month. It accomodates whether it is a leap year of the current day.
