@@ -31,6 +31,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
       - [ControlFlowandErrorHandling](#controlflowanderrorhandling)
         - [Passme](#passme)
         - [PassMulti](#passmulti)
+        - [PartOfDays](#partofdays)
         - [Exercise1Section4](#exercise1section4)
         - [Exercise2Section4](#exercise2section4)
           - [Movies](#movies)
@@ -137,6 +138,10 @@ A simple code project in go to show if branching and logical operators. It will 
 ##### PassMulti
 
 An a more robust version of the Passme project. While this project ufnction in identical fashion, it has the ability to validate two different users, rather than a single user.
+
+##### PartOfDays
+
+A simple execution of a switch statement to part the days into a specific greeting message. It takes the curent hour of the computer and prints the appropriate response.
 
 ##### Exercise1Section4
 

@@ -414,3 +414,58 @@ Shadowing -
     this is a vairbale issue that occurs when a vairble is declared outside of an if statements and inside 
     the if condition. This is caused by the scope of the if block of code.
 
+Switch Statement -
+    Similar to an if statement but with a different syntax. 
+    There are two switch statements one is a condition statement, one is a type statement
+    Switch statements look for an equal value 
+    Starts with the keyword switch. Each case clause insed the statement block begins with the keyword case.
+        the case keyword is followed by a condiiton in the condition type of the switch statement.
+            Syntax is as follows:
+                city := "Paris"
+                switch city {
+                    case "Paris":
+                        fmt.Println("France")
+                }
+
+            switch                   ==> keyword
+            city                     ==> condition that will be used to search
+            case                     ==> keyword to denote a possible operations
+            "Paris"                  ==> the condtion that needs to be matched for the specific code
+            : fmt.Println("France")  ==> body of code that runs should the condition be met.
+
+    Rules for a switch statement:
+        case values should be unique for each case
+        types of the switch and case conditions need to be comparable
+        the code inside the case blcok is exclusive to itself
+
+    Switch statements have a default branch should it need a fallback. to make the default case we use
+        the keyword default rather than case and it is immediately follwoed by a colon. The defualt clause
+        can be anywhere inside the switch statement and there can only be one default clause per switch statement
+
+    a case can have multiple conditions that call that case by using a comma separated list like this:
+        case "Paris", "Lyon":
+            fmt.Println("France")
+    the print statement will be called whether Paris or Lyon is the value passed to the switch statement
+    we can use a boolean value to start a switch statement. True will always run, false will not. 
+        Although a switch statement is always true so specifing it is not necessary.
+    a fallthrough executes the next clause's code without checking the condition. it uses the keyword fallthrough
+        an example
+            switch {
+                case i > 0:
+                    fmt.Print("big")
+                    fallthrough
+                case i > 0:
+                    fmt.Print("positive")
+                    fallthrough
+                default:
+                    fmt.Print("number")
+            }
+    There is such things as short switch, it is similar to the short if. 
+        The declaration of the calling value is declared and assigned followed by a semicolon.
+            switch im:= 10; true {} 
+
+    If vs Switch -
+        which do we use and when?
+        a switch statement is used to make a long if statement more readable. 
+            If an If statement becomes to unreadbale or large, try and convert it to a switch statement
+
