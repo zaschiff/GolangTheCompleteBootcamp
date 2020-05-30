@@ -511,3 +511,22 @@ Loop Statements -
 
         the i loop is the parent loop, the j loop is the nested loop.
 
+    We can loop over a slice or an array.
+        one way to do it is to use the follwing for loop syntax
+            for i := 0; i < len(os.Args); i++ {
+                fmt.Println(os.Args[i])
+            }
+        this loop method will iterate through a slice.
+        we can also use the range keyword, like as follows:
+            for i, j := range os.Args {
+                fmt.Println(j)
+            }
+        in this case, we get both the index and vlaue from the array. if we do not need the index,
+            simply use the _ to discard it.
+
+        the range keyword takes a slice and returns a value from it one by one. 
+            One of the values returned is the index, the other is the value at that index.
+            Both are optional basded on if we use the underscore (_). However, if we just need
+            the index, we can ignore the value returned ocmpletely. like this:
+                for i := range slice {}
+

@@ -47,6 +47,13 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Exercise4Section4](#exercise4section4)
           - [multiplicationTable](#multiplicationtable)
           - [mathTable](#mathtable)
+        - [Exercise5Section4](#exercise5section4)
+          - [sum](#sum)
+          - [sumVerbos](#sumverbos)
+          - [sumN](#sumn)
+          - [evenOnly](#evenonly)
+          - [breakUp](#breakup)
+          - [infiniteKill](#infinitekill)
 
 ### learngo
 
@@ -211,3 +218,31 @@ The first problem in the exercise. To build a multiplication table after getting
 ###### mathTable
 
 The second problem of the exercise. This problem is similar to the multiplication table, except instead of just a size being entered at the command line, so to is the operation for the table to be built on.
+
+##### Exercise5Section4
+
+The fifth exercise in the section. It also governs around the use fo a for loop and different structures of it.
+
+###### sum
+
+uses a for loop to sum the numbers 1 to 10.
+
+###### sumVerbos
+
+takes sum and adds a verbos print out of the actual addition.
+
+###### sumN
+
+sum but the starting and stopping point are given at the command line as arguments passed by the user.
+
+###### evenOnly
+
+takes sumN and only prints th sum of the ven numbers only still in verbose style and usign arguments given by the user at the command line.
+
+###### breakUp
+
+this is the sumN program but rather than using the for statment to stop the loop, we use the break keyword.
+
+###### infiniteKill
+
+a small program that continues to run printing the same thing over and over untilthe keyboard intercup of Ctrl-C.
