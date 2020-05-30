@@ -38,6 +38,12 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [OddOrEven](#oddoreven)
           - [LeapYear](#leapyear)
           - [DaysOfMonth](#daysofmonth)
+        - [Exercise3Section4](#exercise3section4)
+          - [richterScale1](#richterscale1)
+          - [richterScale2](#richterscale2)
+          - [convert](#convert)
+          - [stringManipulation](#stringmanipulation)
+          - [DaysOfMonth2](#daysofmonth2)
 
 ### learngo
 
@@ -166,3 +172,27 @@ Third and fourth problem in exercise 2. The program will take a command line arg
 ###### DaysOfMonth
 
 The fifth problem of the exercise. The program takes in a command line argument of a onth name and notifies the user how many days are in the month. It accomodates whether it is a leap year of the current day.
+
+##### Exercise3Section4
+
+The third exercise in seciton 4. Code pertinaing to the use of switch statements.
+
+###### richterScale1
+
+First problem of the exercise. Takes in a command line argument, an earthquake magnitude, and returns a message of magnitude using a switch statement.
+
+###### richterScale2
+
+Second problem of the exercise.  Takes in a command line message and prints the approapriate magnitude. It is essential the opposite of the first problem while still using switch statements.
+
+###### convert
+
+Third problem in the exercise. The problem is to convert the commented if statement into a switch statement.
+
+###### stringManipulation
+
+Fourth problem of the exercise. The program manipulates a string by a chosen command. Both the command and string are entered at the command line. My variaiton is more advanced as I chose to research how to loop through an array or slice and build the string if neceesary. The protects to a degree around whether the user has remembered or not the quotation marks at the command line.
+
+###### DaysOfMonth2
+
+Fifth and final problem of exercise 3. This program is a refactored version of the days in month problem from the last exercise. The refactored version utilizes a swtich statement rather than if statement.
