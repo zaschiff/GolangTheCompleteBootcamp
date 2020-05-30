@@ -44,6 +44,9 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [convert](#convert)
           - [stringManipulation](#stringmanipulation)
           - [DaysOfMonth2](#daysofmonth2)
+        - [Exercise4Section4](#exercise4section4)
+          - [multiplicationTable](#multiplicationtable)
+          - [mathTable](#mathtable)
 
 ### learngo
 
@@ -196,3 +199,15 @@ Fourth problem of the exercise. The program manipulates a string by a chosen com
 ###### DaysOfMonth2
 
 Fifth and final problem of exercise 3. This program is a refactored version of the days in month problem from the last exercise. The refactored version utilizes a swtich statement rather than if statement.
+
+##### Exercise4Section4
+
+this is the fourth exercie in the section. It focuses on the use of for loops to repeat a body of code in go
+
+###### multiplicationTable
+
+The first problem in the exercise. To build a multiplication table after getting the size of the table from the user in the form of a comman line argument.
+
+###### mathTable
+
+The second problem of the exercise. This problem is similar to the multiplication table, except instead of just a size being entered at the command line, so to is the operation for the table to be built on.

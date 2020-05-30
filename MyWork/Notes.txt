@@ -469,3 +469,45 @@ Switch Statement -
         a switch statement is used to make a long if statement more readable. 
             If an If statement becomes to unreadbale or large, try and convert it to a switch statement
 
+Loop Statements - 
+    there is only one loop system. The for statement.
+    loops allow us to repeat a body of code over and over for a desired amount of time with out having to retype the code. 
+
+    one way to write a for loop is standard C++ way.
+        for i := 1; i <= 1000; i++
+        for       ==> the leyword to start the loop
+        i:= 1     ==> initialization statement to declare a variable to be used in only the for loop. alo known as the init statement
+        i <= 1000 ==> conditional check. The loop continues as long as this condition is true. also know as the condition
+        i++       ==> post statement to be run after the loop. also know as the post statement.
+        in this case, the loop pieces are separated by the semicolon (;). In Go all pieces can be remove except the for body block of code.
+    one example of removing the pieces is if the control variable is  declared somewhere else in the code.
+        we can write:
+            for ;i <= 5; i++ {}
+            this code still functions correctly and go recognizes that the for loop has a condition and post statement that need to be
+                attended to.
+        we could also remove the post statement, as long as we put it some where inside the body of the loop like so:
+            for ;i <= 5; {
+                sum += i
+                i++
+            }
+            go still recognizes the condition statement.
+        if we just ahve the condition we do not need the smeicolons (;)
+        if we remove all three pieces it is an infinite loop like this:
+            for {
+                some code
+            }
+            if we need to break the for loop we can use the keyword break to stop the loop. We do need to be careful where we place the
+            break statement though. The code after the break statement will not run.
+        if we want to skip a step in the loop we cna use the continue statement. This forces the loop to go directly to the post
+        statement without finishing the code body that follows the continue keyword. So just like the brek statement we need to be 
+        where we place the continue statement.
+
+    Nested loops are loops that are inside of another loop. for example:
+        for i := 0; i < 5: i++ {
+            for j := 0; j < 5; J++ {
+
+            }
+        }
+
+        the i loop is the parent loop, the j loop is the nested loop.
+
