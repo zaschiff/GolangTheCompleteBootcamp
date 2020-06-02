@@ -32,6 +32,7 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Passme](#passme)
         - [PassMulti](#passmulti)
         - [PartOfDays](#partofdays)
+        - [luckyNum](#luckynum)
         - [Exercise1Section4](#exercise1section4)
         - [Exercise2Section4](#exercise2section4)
           - [Movies](#movies)
@@ -158,6 +159,10 @@ An a more robust version of the Passme project. While this project ufnction in i
 ##### PartOfDays
 
 A simple execution of a switch statement to part the days into a specific greeting message. It takes the curent hour of the computer and prints the appropriate response.
+
+##### luckyNum
+
+A small command line game that utilizes random values. This program also further shows the use of loops. It has been modified to meet the lucky number challenges presented at the end of the lecture 176 - Write the Game Logic.
 
 ##### Exercise1Section4
 
