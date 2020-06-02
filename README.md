@@ -32,7 +32,6 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
         - [Passme](#passme)
         - [PassMulti](#passmulti)
         - [PartOfDays](#partofdays)
-        - [luckyNum](#luckynum)
         - [Exercise1Section4](#exercise1section4)
         - [Exercise2Section4](#exercise2section4)
           - [Movies](#movies)
@@ -55,6 +54,12 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [evenOnly](#evenonly)
           - [breakUp](#breakup)
           - [infiniteKill](#infinitekill)
+      - [ProjectforBeginners](#projectforbeginners)
+        - [luckyNum](#luckynum)
+        - [Exercise1Section5](#exercise1section5)
+          - [luckyNumVerbose](#luckynumverbose)
+          - [luckyNumIncrGuess](#luckynumincrguess)
+          - [luckyNumDynDif](#luckynumdyndif)
 
 ### learngo
 
@@ -160,10 +165,6 @@ An a more robust version of the Passme project. While this project ufnction in i
 
 A simple execution of a switch statement to part the days into a specific greeting message. It takes the curent hour of the computer and prints the appropriate response.
 
-##### luckyNum
-
-A small command line game that utilizes random values. This program also further shows the use of loops. It has been modified to meet the lucky number challenges presented at the end of the lecture 176 - Write the Game Logic.
-
 ##### Exercise1Section4
 
 Code pertaining to first exercise of section 4. Shows examples of the if statement and else if branches.
@@ -251,3 +252,27 @@ this is the sumN program but rather than using the for statment to stop the loop
 ###### infiniteKill
 
 a small program that continues to run printing the same thing over and over untilthe keyboard intercup of Ctrl-C.
+
+#### ProjectforBeginners
+
+Code pertaining to small projects designed to teach some small sections of GO like randomizaiont and labeled statements.
+
+##### luckyNum
+
+A small command line game that utilizes random values. This program also further shows the use of loops. It has been modified to meet the lucky number challenges presented at the end of the lecture 176 - Write the Game Logic.
+
+##### Exercise1Section5
+
+First exercise folder in the section.
+
+###### luckyNumVerbose
+
+Takes the Lucky NUmber game and adds a verbose flag option to allow the user to see the computer generated guess.
+
+###### luckyNumIncrGuess
+
+Alters the lucky number game to allow the user to plug in a higher than 10 gues, the game will then adjust the range of random numbers to meet this new max.
+
+###### luckyNumDynDif
+
+Alters the lucky number game for dyanmic difficulty based on the number fo the gues. the number of turns for the computer will be based on the number entered as the user's guess.
