@@ -60,6 +60,10 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [luckyNumVerbose](#luckynumverbose)
           - [luckyNumIncrGuess](#luckynumincrguess)
           - [luckyNumDynDif](#luckynumdyndif)
+        - [Exercise2Section5](#exercise2section5)
+          - [crunchPrimes](#crunchprimes)
+          - [pathSearch](#pathsearch)
+          - [wordSearch](#wordsearch)
 
 ### learngo
 
@@ -276,3 +280,19 @@ Alters the lucky number game to allow the user to plug in a higher than 10 gues,
 ###### luckyNumDynDif
 
 Alters the lucky number game for dyanmic difficulty based on the number fo the gues. the number of turns for the computer will be based on the number entered as the user's guess.
+
+##### Exercise2Section5
+
+Another simple set of projects to work with labeling and code reuse
+
+###### crunchPrimes
+
+Program that takes in a list of numbers and prints out only the prime numbers
+
+###### pathSearch
+
+Program that searches the path variable for keywors supplied by the user.
+
+###### wordSearch
+
+a simple word search porgram that is case insensitive, allowing the user to search a pre-set string.
