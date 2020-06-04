@@ -64,6 +64,14 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [crunchPrimes](#crunchprimes)
           - [pathSearch](#pathsearch)
           - [wordSearch](#wordsearch)
+      - [ArraysandMemory](#arraysandmemory)
+        - [moodly](#moodly)
+        - [Exercise1Section6](#exercise1section6)
+          - [assingArray](#assingarray)
+          - [compareArrays](#comparearrays)
+          - [emptyArray](#emptyarray)
+          - [fix](#fix)
+          - [getSetArray](#getsetarray)
 
 ### learngo
 
@@ -296,3 +304,35 @@ Program that searches the path variable for keywors supplied by the user.
 ###### wordSearch
 
 a simple word search porgram that is case insensitive, allowing the user to search a pre-set string.
+
+#### ArraysandMemory
+
+this section covers arrays, slices, and memory layout when using them.
+
+##### moodly
+
+a simplw program challenge to practice using arrays. It randomly selects a moood form an array of options.
+
+##### Exercise1Section6
+
+First exercise in section 6. More practice using arrays
+
+###### assingArray
+
+uses an exisitng array to populate another two and then manipulate the two new arrays.
+
+###### compareArrays
+
+a simple program that required me to fix the commented section of the code.
+
+###### emptyArray
+
+using array declaration , delcare a series of empty arrays of specific types.
+
+###### fix
+
+a code project that required the commented code to be repaired to be functional.
+
+###### getSetArray
+
+the program covers several problems in one, it uses other ways to declare and array and print the data from it.

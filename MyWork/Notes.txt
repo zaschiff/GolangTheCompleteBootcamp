@@ -564,3 +564,23 @@ Goto -
     there are rules with a goto statement:
         1) you cannot jump before a variable declaration
 
+Arrays -
+    why arrays? Normally we need to work with more than one piece of data.
+    a memory cell can only handle on byte. The computr will stroe items in different memory locations.
+    an array is a collection type, and is stored in a contiguous section of memory. One element,
+    following the another. The size of the array etermines howmany cells of memory.
+    The data type that the arrya holds detemrins the size that each element takes. 
+        a single int16 element will take 2 blocks fo memory
+    array's must be constant, so a fixed capacity and can only hold items of the 
+        same type as it's declaration.
+    index needs to be lower than the length.
+    elements act like variables when called.
+    we can create and initiliaze an array at the same time, 
+        when done this is called a composite literal. 
+        A composite literal is a combination of type and amount
+        if the ending brace is not next to the last element, then a comma is necessary.
+        if not all elements are provided at initialization, then the remaingin elements
+            are initialized to their zero values of the required type.
+    arrays are compared element by element. To compare the arrays, they need to be same type and length 
+        ie [3]int is different from [2]int16
+
