@@ -584,3 +584,39 @@ Arrays -
     arrays are compared element by element. To compare the arrays, they need to be same type and length 
         ie [3]int is different from [2]int16
 
+Multi-dimensional arrays -
+    is just an ordinary array with each element being an array of items.
+    we call is the same as a normal array, only with a second length in bracket's specified like so:
+
+        [2][3]int{{5, 6, 1}, {9, 8, 4}}
+            [2]       ==> number of elements in the outer array
+            [3]int    ==> type of element for the outer array
+            {5, 6, 1} ==> first element of the parent array
+            {9, 8, 4} ==> second elements of the parent array
+
+    the inner type must be the saame as the outer type. ie int and int.
+    we call the specific element by array[0][1] = 6 using the array above.
+
+    it is not necessary to write the inner element type when initiliazing the elements.
+
+Keyed Elements - (a rarely known feature)
+    is giving an index when declaring and array literal. like so:
+        rates := [3]float64{
+            0: 0.5,
+            1: 2.5,
+            2: 1.5,
+        }
+    in this case the 0:, 1:, and 2: are the array indexes. we can specify the value
+        to the specific index by doing this. If we use the key system, the order of the values does not matter
+        when initializing. If we use an elipsis and sets the keyed element to the higher number,
+        the array will have n + 1 element, n bieing the keyed element, and the rest will be 
+        their sero values. If some itmes are keyerd and others are not. The non keyed values
+        will go to the next indexed position followng the last keyed value. IE
+            if the last keyed value is at index 5, then the first non keyed value will be at
+            index 6.
+
+composite vs. unnamed types -
+    we can define types by using the keyword type. We give it a name and an underlying type.
+    if we need to compare named types and somehting else, they ned to have the same underlying type. 
+    However, a named type can not be comapred to another named type. If we need to do this comparison,
+        we can convert the one to the other as long as their underlying type is identical.

@@ -72,6 +72,13 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [emptyArray](#emptyarray)
           - [fix](#fix)
           - [getSetArray](#getsetarray)
+        - [Exercise2Setion6](#exercise2setion6)
+          - [averages](#averages)
+          - [bookSearch](#booksearch)
+          - [currencyConverter](#currencyconverter)
+          - [numberSort](#numbersort)
+          - [wizardPrinter](#wizardprinter)
+          - [wordFinder](#wordfinder)
 
 ### learngo
 
@@ -336,3 +343,31 @@ a code project that required the commented code to be repaired to be functional.
 ###### getSetArray
 
 the program covers several problems in one, it uses other ways to declare and array and print the data from it.
+
+##### Exercise2Setion6
+
+the second exercise in the seciton working further with arrays.
+
+###### averages
+
+using arrays, takes in at the most 5 command line arguments, adds them to an array and produces the sum and "rough" average of the numbers entered.
+
+###### bookSearch
+
+a simplified search engine that searches a list of books for key words entered at the command line.
+
+###### currencyConverter
+
+a simplified currency converter using an array to hold the ratio values.
+
+###### numberSort
+
+a number sorting program that uses an array to hold 5 numbers entered at the command line by the user, and sorts them using the bubble sort algorithm.
+
+###### wizardPrinter
+
+an array loop to pretty print a multi-dimensional array of names.
+
+###### wordFinder
+
+a new modified word finder with an array of filtered words.
