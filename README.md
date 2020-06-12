@@ -79,6 +79,15 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [numberSort](#numbersort)
           - [wizardPrinter](#wizardprinter)
           - [wordFinder](#wordfinder)
+      - [RetroClock](#retroclock)
+      - [SlicesandInternals](#slicesandinternals)
+        - [Exercise1Section8](#exercise1section8)
+          - [arraysToSlices](#arraystoslices)
+          - [assignSlices](#assignslices)
+          - [compareSlices](#compareslices)
+          - [emptySlices](#emptyslices)
+          - [fixTheCode](#fixthecode)
+          - [nilSlices](#nilslices)
 
 ### learngo
 
@@ -371,3 +380,39 @@ an array loop to pretty print a multi-dimensional array of names.
 ###### wordFinder
 
 a new modified word finder with an array of filtered words.
+
+#### RetroClock
+
+this si the frist capstone project of the course. The project designs a clock for the command prompt. The clock updates and blinks. The exercises are commented code in the main program that allows the code to print an alarm and scroll the clock across the screen.
+
+#### SlicesandInternals
+
+This section gives practice and informaiton when concerning slices.
+
+##### Exercise1Section8
+
+This is the first exercise in teh section. Practice in using Slices.
+
+###### arraysToSlices
+
+Takes pre-written code and converts the arrays declared into slices.
+
+###### assignSlices
+
+Practice in assigning slices in code.
+
+###### compareSlices
+
+Take a string and split it into a slice, then compare the resulting slice with another using a combination of if statements and for loops.
+
+###### emptySlices
+
+Create and declare empty slices.
+
+###### fixTheCode
+
+Take the pre-written code and fix the code so that it runs.
+
+###### nilSlices
+
+create and declare nil slices, uninitialized slices.

@@ -620,3 +620,25 @@ composite vs. unnamed types -
     if we need to compare named types and somehting else, they ned to have the same underlying type. 
     However, a named type can not be comapred to another named type. If we need to do this comparison,
         we can convert the one to the other as long as their underlying type is identical.
+
+Slices -
+     Why? an array is a fixed collection type. it can not be modified after being created. A slice has the ability
+     to grow and shrink during runtime allowing the slice to modififed as necessary. The reason an array's length
+     can not be changed during runtime is due to the fact that the array's lenght is part of it's type and since
+     types belong to compile time.
+
+        you declare a slice like you would an array. You cal it the same minus the length.
+            array ==> var num [5]int
+            slice ==> var num []int
+
+            there is no fixed length in the slice like the array.
+    the slices uninitialized value is nil.
+    like an array though, it can only store it's element type so if the slice is an int slice like this []int,
+    then it can only hold int's.
+    when a slice is delcared but not initialized, we can not assign by index.
+    a slice can not be compared to a another slice. It can only be compared to a nil value. If we need to compare
+    a slice, then we need to loop throught the elements.
+    there is a a difference between a nil slice and empty:
+        emtpy ==> initialized
+        nil ==> not initialized
+
