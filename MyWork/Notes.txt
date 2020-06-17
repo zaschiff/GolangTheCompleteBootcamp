@@ -642,3 +642,5 @@ Slices -
         emtpy ==> initialized
         nil ==> not initialized
 
+    in order to add new elements to a slice, we use the append function. We must store the append functoion to a 
+    new slice as the appednfucntion returns a new slice and takes a copy of the original passed slice.

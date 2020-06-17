@@ -88,6 +88,13 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [emptySlices](#emptyslices)
           - [fixTheCode](#fixthecode)
           - [nilSlices](#nilslices)
+        - [Exercise2Section8](#exercise2section8)
+          - [appendFix](#appendfix)
+          - [appendSort](#appendsort)
+          - [appendToEqual](#appendtoequal)
+          - [appendToNil](#appendtonil)
+          - [parseData](#parsedata)
+          - [parseDataAverages](#parsedataaverages)
 
 ### learngo
 
@@ -416,3 +423,31 @@ Take the pre-written code and fix the code so that it runs.
 ###### nilSlices
 
 create and declare nil slices, uninitialized slices.
+
+##### Exercise2Section8
+
+practice appending to slices.
+
+###### appendFix
+
+fix the pre-written code and then simplify
+
+###### appendSort
+
+get numbers form the command line and ignore anything else. Sort the slices, and then print the result fo the sort.
+
+###### appendToEqual
+
+append values to one slice so that it equals the other
+
+###### appendToNil
+
+append values to a nil slice
+
+###### parseData
+
+parse a series of data and append the pieces to specific slices. The print them to a command line in a formatted table
+
+###### parseDataAverages
+
+using the parseData code, add a line below the table that prints out the averages from the int columns.
