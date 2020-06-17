@@ -59,28 +59,28 @@ func main() {
 			case 1:
 				num, err := strconv.Atoi(d)
 				if err != nil {
-					fmt.Println("Error: %d is not a number\n", d)
+					fmt.Printf("Error: %q is not a number\n", d)
 					return
 				}
 				size = append(size, num)
 			case 2:
 				num, err := strconv.Atoi(d)
 				if err != nil {
-					fmt.Println("Error: %d is not a number\n", d)
+					fmt.Printf("Error: %q is not a number\n", d)
 					return
 				}
 				beds = append(beds, num)
 			case 3:
 				num, err := strconv.Atoi(d)
 				if err != nil {
-					fmt.Println("Error: %d is not a number\n", d)
+					fmt.Printf("Error: %q is not a number\n", d)
 					return
 				}
 				baths = append(baths, num)
 			case 4:
 				num, err := strconv.Atoi(d)
 				if err != nil {
-					fmt.Println("Error: %d is not a number\n", d)
+					fmt.Printf("Error: %q is not a number\n", d)
 					return
 				}
 				price = append(price, num)
