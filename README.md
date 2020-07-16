@@ -95,6 +95,10 @@ This repo holds the code for the Udemy Class Go (Golang): The Complete Bootcamp 
           - [appendToNil](#appendtonil)
           - [parseData](#parsedata)
           - [parseDataAverages](#parsedataaverages)
+        - [Exercise3Section8](#exercise3section8)
+          - [argsSlicing](#argsslicing)
+          - [namedColumnSlicing](#namedcolumnslicing)
+          - [numberSlice](#numberslice)
 
 ### learngo
 
@@ -451,3 +455,19 @@ parse a series of data and append the pieces to specific slices. The print them 
 ###### parseDataAverages
 
 using the parseData code, add a line below the table that prints out the averages from the int columns.
+
+##### Exercise3Section8
+
+Small group of exercises that govern the usage of slicing
+
+###### argsSlicing
+
+get the starting and ending position from the user via command line and slcie the array appropriately
+
+###### namedColumnSlicing
+
+slice a named group of data using the column headers as the starting and ending position
+
+###### numberSlice
+
+using a prewritten slice, cut it accordingly to meet pre-chosen requirements.

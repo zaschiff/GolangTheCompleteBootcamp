@@ -644,3 +644,18 @@ Slices -
 
     in order to add new elements to a slice, we use the append function. We must store the append functoion to a 
     new slice as the appednfucntion returns a new slice and takes a copy of the original passed slice.
+
+    We can use slice expressions. Sliceable is any value that can be sliced.
+        sliceable values are:
+            Slice
+            Array
+            String
+    to slice a slicable value we ust the following syntax:
+        sliceable[START:STOP]
+        slicable ==> name of the value
+        START    ==> starting index of the sliceable value.
+        END      ==> ENDING index, but not inclusive
+    slicing returns a new slice object. IF something is missing, it defaults to either beginning
+        or end depending on which is missing
+    slicing a slice is called reslice and can be done indefinitely
+
