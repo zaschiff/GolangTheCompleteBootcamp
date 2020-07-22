@@ -659,3 +659,17 @@ Slices -
         or end depending on which is missing
     slicing a slice is called reslice and can be done indefinitely
 
+Slice Internals -
+    a slice does not direclty store any elements.
+    it holds the backing array the refers to the array holding the actual values.
+    slice headers hold the infromation about the backing array and it's location via memory address.
+        the information stored is: the memory address or pointer field, the length of the backing array, 
+            and the capacity of the array
+            length is the told number of elements in the array
+            capacity is the number of elements that the backing array can hold.
+    a nil slice does not create a backing array or info structure
+    a slice created using slice internal or literal will always ues the same backing array.
+    capacity is always about lenght and where the array starts.
+    when using append on a slice it cresate a new backing array and a new header struct for the slice
+        it will creaste a new backing array wiht a larger cpaacity to reduce overhead of creating a new
+        backing array
